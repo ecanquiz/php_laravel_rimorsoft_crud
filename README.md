@@ -26,11 +26,15 @@ Lesson 4 - Product Listing in Laravel - Route::resource
 
 $ pwd
 
-php artisan route:list
+$ php artisan route:list
 
 Lesson 5 - Template inheritance - BLADE
 
 Lesson 6 - List and Paginate elements in LARAVEL
+
+Lesson 7 - CRUD letter R in Laravel
+
+$ php artisan route:list
 
 
 
