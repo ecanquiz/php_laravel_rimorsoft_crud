@@ -22,12 +22,18 @@
                       {{ $product->short }}
                   </td> 
 		  <td>
-                      <a href="{{ route('products.show', $product->id) }}">ver</a>
+                      <a class="btn btn-link" href="{{ route('products.show', $product->id) }}">ver</a>
 		  </td>
                   <td>
-                      <a href="{{ route('products.edit', $product->id) }}">editar</a>
+                      <a class="btn btn-link" href="{{ route('products.edit', $product->id) }}">editar</a>
                   </td>
-                  <td>borrar</td>
+		  <td>
+		      <form action="{{ route('products.destroy', $product->id)  }}" method="POST">
+                          {{ csrf_field()  }}
+                          <input type="hidden" name="_method" value="DELETE">
+                          <button class="btn btn-link">borrar</button>
+                      </form>
+                  </td>
                </tr>
                @endforeach
             </tbody>

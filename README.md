@@ -36,6 +36,12 @@ Lesson 7 - CRUD letter R in Laravel
 
 $ php artisan route:list
 
+Lesson 8 - CRUD Letter D
+
+$ php artisan route:list
+
+
+
 
 
 

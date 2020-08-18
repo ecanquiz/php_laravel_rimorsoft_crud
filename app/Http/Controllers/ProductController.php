@@ -19,4 +19,12 @@ class ProductController extends Controller
       return view('products.show', compact('product'));
   }
 
+  public function destroy($id)
+  {
+      $product = Product::find($id);
+      $product->delete();
+
+      return back()->with('info', 'El producto fué eliminado');
+  }
+
 }
