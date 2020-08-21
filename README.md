@@ -40,6 +40,8 @@ Lesson 8 - CRUD Letter D
 
 $ php artisan route:list
 
+Lesson 9 - Templates and Partials
+
 
 
 
