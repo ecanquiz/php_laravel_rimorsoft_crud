@@ -42,6 +42,14 @@ $ php artisan route:list
 
 Lesson 9 - Templates and Partials
 
+Lesson 10 - EDIT and CREATE views
+
+$ composer require "laravelcollective/html":"^X.X.0"
+
+I couldn't install LaravelCollective. Therefore, I did it without it.
+
+
+
 
 
 
