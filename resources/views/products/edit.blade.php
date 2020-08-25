@@ -6,6 +6,7 @@
       Editar producto
       <a href="{{ route('products.index') }}" class="btn btn-default pull-right">Listado</a>
     </h2>
+    @include('products.fragment.error')
     <form action="{{ route('products.update', $product->id)  }}" method="POST">
       {{ csrf_field()  }}
       <input type="hidden" name="_method" value="PUT">

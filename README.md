@@ -48,6 +48,10 @@ $ composer require "laravelcollective/html":"^X.X.0"
 
 I couldn't install LaravelCollective. Therefore, I did it without it.
 
+Lesson 11 - Validation (Form Requests)
+
+$ php artisan make:request ProductRequest
+
 
 
 

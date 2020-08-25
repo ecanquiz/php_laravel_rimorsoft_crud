@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Product;
+use App\Http\Requests\ProductRequest;
 
 class ProductController extends Controller
 {
@@ -18,11 +19,21 @@ class ProductController extends Controller
       return view('products.create');
   }
 
+  public function store(ProductRequest $request)
+  {
+      return 'producto guardado';
+  }  
+
   public function edit($id)
   {
       $product = Product::find($id);
       return view('products.edit', compact('product'));
   }
+
+  public function update(ProductRequest $request, $id)
+  {
+      return 'producto actualizado ' . $id;
+  } 
 
   public function show($id)
   {
