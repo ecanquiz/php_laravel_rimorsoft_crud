@@ -52,6 +52,8 @@ Lesson 11 - Validation (Form Requests)
 
 $ php artisan make:request ProductRequest
 
+Lesson 12 - CRUD letter C and U
+
 
 
 
