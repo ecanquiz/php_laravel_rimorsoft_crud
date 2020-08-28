@@ -54,6 +54,8 @@ $ php artisan make:request ProductRequest
 
 Lesson 12 - CRUD letter C and U
 
+Lesson 13 - Translation component in LARAVEL
+
 
 
 
